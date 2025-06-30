@@ -1,0 +1,152 @@
+<?php require 'header.php'; ?>
+<main role="main">
+    
+<!-- Carousel Mobile -->
+    <section class="carousel-wrapper mobile-carousel">
+  <div class="carousel-container">
+    <div class="carousel-track-container">
+      <ul class="carousel-track">
+        <li class="carousel-slide current-slide">
+          <img src="material/carousel slides (webp)/slide1-mob.webp" alt="Vive la verdadera experiencia mazatleca" loading="eager">
+        </li>
+        <li class="carousel-slide">
+          <img src="material/carousel slides (webp)/slide2-mob.webp" alt="Paseo Isla Venados Mazatlán" loading="lazy">
+        </li>
+        <li class="carousel-slide">
+          <img src="material/carousel slides (webp)/slide3-mob.webp" alt="Ruta en cuatrimoto en la playa en Mazatlán" loading="lazy">
+        </li>
+      </ul>
+    </div>
+
+    <button class="carousel-button carousel-button-left" aria-label="Imagen anterior">
+      <img src="material/svg/arrow-left.svg" alt="Anterior" loading="lazy">
+    </button>
+    <button class="carousel-button carousel-button-right" aria-label="Imagen siguiente">
+      <img src="material/svg/arrow-right.svg" alt="Siguiente" loading="lazy">
+    </button>
+
+    <div class="carousel-nav" role="tablist" aria-label="Selector de diapositivas">
+      <button class="carousel-indicator current-slide" role="tab" aria-selected="true" aria-label="Diapositiva 1"></button>
+      <button class="carousel-indicator" role="tab" aria-selected="false" aria-label="Diapositiva 2"></button>
+      <button class="carousel-indicator" role="tab" aria-selected="false" aria-label="Diapositiva 3"></button>
+    </div>
+  </div>
+</section>
+
+<!-- Carousel Desktop -->
+<section class="carousel-wrapper-desktop desktop-carousel">
+  <div class="carousel-container-desktop">
+    <div class="carousel-gradient-overlay-desktop"></div>
+
+    <div class="carousel-track-container-desktop">
+      <ul class="carousel-track-desktop">
+        <li class="carousel-slide-desktop current-slide-desktop">
+          <img src="material/carousel slides (webp)/slide1-desk.webp" alt="Vive la verdadera experiencia mazatleca" loading="eager">
+        </li>
+        <li class="carousel-slide-desktop">
+          <img src="material/carousel slides (webp)/slide2-desk.webp" alt="Paseo Isla Venados Mazatlán" loading="lazy">
+        </li>
+        <li class="carousel-slide-desktop">
+          <img src="material/carousel slides (webp)/slide3-desk.webp" alt="Ruta en cuatrimoto en la playa en Mazatlán" loading="lazy">
+        </li>
+      </ul>
+    </div>
+
+    <button class="carousel-button-desktop carousel-button-left-desktop" aria-label="Imagen anterior">
+      <img src="material/svg/arrow-left.svg" alt="Anterior" loading="lazy">
+    </button>
+    <button class="carousel-button-desktop carousel-button-right-desktop" aria-label="Imagen siguiente">
+      <img src="material/svg/arrow-right.svg" alt="Siguiente" loading="lazy">
+    </button>
+
+    <div class="carousel-nav-desktop" role="tablist" aria-label="Selector de diapositivas">
+      <button class="carousel-indicator-desktop current-slide-desktop" role="tab" aria-selected="true" aria-label="Diapositiva 1"></button>
+      <button class="carousel-indicator-desktop" role="tab" aria-selected="false" aria-label="Diapositiva 2"></button>
+      <button class="carousel-indicator-desktop" role="tab" aria-selected="false" aria-label="Diapositiva 3"></button>
+    </div>
+  </div>
+</section>
+    
+<!-- About Us section -->
+<section class="section-container" id="about-us">
+  <h1 class="section-title">Quiénes Somos</h1>
+  
+  <div class="section-content">
+    
+    <article class="about-card">
+      <img src="material/img/img-1.webp" alt="Nuestra Historia">
+      <div class="about-text">
+        <h2>Nuestra Historia</h2>
+        <p>
+          Desde el año 2016, en Central Tours Mazatlán ofrecemos los mejores tours y 
+          experiencias siempre garantizando el mejor precio y satisfacción, 
+          con guías apasionado por brindar atención dedicada y servicio excepcional.
+          <span>¡Todo en un solo lugar!</span>
+        </p>
+      </div>
+    </article>
+
+    <article class="about-card">
+      <img src="material/img/img-2.webp" alt="Nuestro Equipo">
+      <div class="about-text">
+        <h2>Nuestro Equipo</h2>
+        <p>
+          Nuestro equipo se dedica con entusiasmo a ofrecer un trato cercano y personalizado, 
+          creando la mejor experiencia y recuerdos inolvidables que 
+          te invitan a regresar una y otra vez a nuestro hermoso puerto de Mazatlán.
+          <span>¡Lo hemos comprobado!</span>
+        </p>
+      </div>
+    </article>
+
+  </div>
+</section>
+
+<!-- About Us section (Desktop) -->
+<section class="section-container-desktop" id="about-us">
+        <h1 class="section-title-desktop">Quiénes Somos</h1>
+        <div class="section-content-desktop">
+            <div class="grid-item grid-pos-1">
+                <div class="about-image-desktop">
+                    <img src="material/img/img-1.webp" alt="Mazatlán Beach">
+                </div>
+            </div>
+            
+            <article class="grid-item grid-pos-2 about-card-desktop">
+                <div class="about-text-desktop">
+                    <h2>Nuestra Historia</h2>
+                    <p>
+                        Desde el año 2016, en Central Tours Mazatlán ofrecemos los mejores tours y
+                        experiencias siempre garantizando el mejor precio y satisfacción,
+                        con guías apasionados por brindar atención dedicada y servicio excepcional.
+                        <span>¡Todo en un solo lugar!</span>
+                    </p>
+                </div>
+            </article>
+            
+            <article class="grid-item grid-pos-3 about-card-desktop">
+                <div class="about-text-desktop">
+                    <h2>Nuestro Equipo</h2>
+                    <p>
+                        Nuestro equipo se dedica con entusiasmo a ofrecer un trato cercano y personalizado,
+                        creando la mejor experiencia y recuerdos inolvidables que
+                        te invitan a regresar una y otra vez a nuestro hermoso puerto de Mazatlán.
+                        <span>¡Lo hemos comprobado!</span>
+                    </p>
+                </div>
+            </article>
+            
+            <div class="grid-item grid-pos-4">
+                <div class="about-image-desktop">
+                    <img src="material/img/img-2.webp" alt="Tour Guide">
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+  <!-- Footer -->
+  <footer role="contentinfo">
+    <p class="copyright">&copy; 2025 Central Tours Mazatlán. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
